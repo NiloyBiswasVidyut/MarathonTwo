@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+body{
+    background-color: rgb(8, 8, 8);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.tabs{
+    max-width: 450px;
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
+}
+.tabs .tabBtn{
+    color: rgb(151, 151, 151);
+    padding: 10px 80px;
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+}
+
+.tabs .tabBtn.cngBtn{
+    background-color: black;
+    color: white;
+    transition: 100ms;
+}
+
+.info{
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    width: 100%;
+    gap: 20px;
+    padding: 17px;
+    border: 1px solid rgb(51, 51, 51);
+    border-radius: 9px;
+}
+.info-top{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.info-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.infoBtn{
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(51, 51, 51);
+    border-radius: 6px;
+    transition: 100ms;
+}
+.infoBtn:hover{
+    background-color: rgb(228, 227, 227);
+    transition: 100ms;
+}
+input{
+    height: 35px;
+    border: 1px solid rgb(51, 51, 51);
+    background-color: transparent;
+    border-radius: 6px;
+}
+p{
+    color: rgb(180, 180, 180);
+}
