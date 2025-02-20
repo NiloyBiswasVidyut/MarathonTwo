@@ -12,10 +12,23 @@
             <button class="tabBtn" id="acc">Account</button>
             <button class="tabBtn" id="pass">Password</button>
         </div>
-        <div class="info">
+        <div class="info" id="accDiv">
+            <div class="info-top">
+                <h2 id="hline">Account</h2>
+                <p id="para">Make changes to your account here. Click save when you're done.</p>
+            </div>
+            <div class="info-bottom">
+                <label for="inputOne" id="labelOne">Name</label>
+                <input type="text" id="inputOne">
+                <label for="inputTwo" id="labelTwo">Username</label>
+                <input type="text" id="inputTwo">
+            </div>
+            <button class="infoBtn" id="infoBtn"> Save changes</button>
+        </div>
+        <div class="info" id="passDiv">
             <div class="info-top">
                 <h2 id="hline">Password</h2>
-                <p id="para">Enter Password</p>
+                <p id="para">Change your password here. After saving, you'll be logged out.</p>
             </div>
             <div class="info-bottom">
                 <label for="inputOne" id="labelOne">Current password</label>
@@ -23,7 +36,7 @@
                 <label for="inputTwo" id="labelTwo">New Password</label>
                 <input type="text" id="inputTwo">
             </div>
-            <button class="infoBtn" id="infoBtn"> Save Password</button>
+            <button class="infoBtn" id="infoBtn"> Save password</button>
         </div>
     </div>
     <script src="./script.js"></script>
